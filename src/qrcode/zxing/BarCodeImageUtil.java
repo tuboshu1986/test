@@ -248,7 +248,7 @@ public class BarCodeImageUtil {
 			BarcodeFormat.CODE_128, 
 			true);		
 		
-		OutputStream out = new FileOutputStream("D:\\tmp\\pdf\\br.gif");
+		OutputStream out = new FileOutputStream("C:\\tmp\\pdf\\br.gif");
 		ImageIO.write(image, "gif", out);
 		out.close();
 	}
